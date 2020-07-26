@@ -5,3 +5,7 @@
 ## 什么是Servlet
 
 Servlet是Java EE的一个规范，用于连接web服务器与服务端小程序。本记录依赖于动力节点杜聚宾老师的Servlet教程。从开发Servlet程序过程中学习Servlet。
+
+## [第一个webapp](https://github.com/Junglelk/Servlet-Learn/tree/master/FirstWebApp)
+
+## [带Servlet的webapp](https://github.com/Junglelk/Servlet-Learn/tree/master/FirstServletApp)
