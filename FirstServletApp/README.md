@@ -1,4 +1,4 @@
-# 带有Servlet的webapp
+## 带有Servlet的webapp
 
 先开发后部署。  
 新建一个文件夹，名称为FirstServletApp。内必须有一个名为**WEB-INF**文件夹，该文件夹内必须有一个**classes**文件夹、一个**lib**文件夹、一个web.xml文件。  
@@ -49,6 +49,8 @@ xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
     <servlet-name>thisIsServletName</servlet-name>
     <servlet-class>HelloServlet</servlet-class>
 </servlet>
+    <!--上面是一个servlet配置，标志名为thisIsServletName；依托实现类为HelloServlet-->
+    <!--下面是servlet池，包含所有配置的servlet，以标志名识别，以请求路径为别名，此别名是访问时的输入名-->
 <servlet-mapping>
     <servlet-name>thisIsServletName</servlet-name>
     <!--路径随意编写但必须以"/"开始-->
